@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism_Arnab</title>
+    <link rel="stylesheet" href="glass_S.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+        <div class="card">
+           <div class="content">
+                <h2>Moba</h2>
+                <p >“MOBA” stands for “multiplayer online battle arena.” Sometimes MOBA games are referred to as “action real-time strategy.” In fact, the very first MOBA games were user-created mods (modifications) of real-time strategy games.</p>
+                <a href="#">
+                    <b> Read More</b> </a>
+            </div>
+
+            <div class="box">
+                <img src="https://games.mail.ru/hotbox/content_files/news/2022/03/11/c42a0af4b7aa431bb36069e6fde466eb.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+       
+       
+        <!-- js -->
+        <script src="glass_js.js"></script>
+        <script>
+         VanillaTilt.init(document.querySelector(".card"), {
+         max: 10,
+         speed: 200,
+         glare: true,
+         "max-glare":  1,
+});
+        </script>
+</body>
+</html>
